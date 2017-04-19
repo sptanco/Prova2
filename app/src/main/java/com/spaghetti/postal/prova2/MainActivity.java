@@ -148,18 +148,18 @@ public class MainActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-        TextView tv = (TextView) findViewById(R.id.tt);
+
 
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
-            tv.setText("gallery");
+
 
         } else if (id == R.id.nav_slideshow) {
-            tv.setText("nnasjd");
+
 
         } else if (id == R.id.nav_manage) {
-            tv.setText("manager");
+
 
         } else if (id == R.id.nav_share) {
 

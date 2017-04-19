@@ -38,6 +38,7 @@ public class CorpoLayout extends LinearLayout {
         this.setPadding(0,0,0,20);
 
         TextView product = new TextView(context);
+        product.setPadding(0,0,5,0);
         product.setText(corpo);
         product.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,LayoutParams.WRAP_CONTENT,100.0f));
         this.addView(product);
